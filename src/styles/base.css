@@ -82,8 +82,37 @@
   font-size: 17px;
 }
 
-.library .library__content .fa-plus {
+.library .library__content  .fa-plus {
   color: #b3b3b3;
   font-weight: 700;
   font-size: 20px;
+}
+
+.section-playlist {
+  background-color: #242424;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  padding: 12px ;
+  border-radius: 9px;
+  margin-top: 10px;
+}
+
+.section-playlist .section-playlist__content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  padding: 10px;
+}
+
+.section-playlist .section-playlist__content .title {
+  color: #fff;
+}
+
+.section-playlist .section-playlist__content .subtitle {
+  color: #fff;
+  font-weight: 100;
+  font-size: 15px;
 }
