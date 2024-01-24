@@ -1,4 +1,8 @@
 :root {
-  --font-gergia: 'Geologica', sans-serif;
-  --bg-color: #121212;
+  --font-web: 'Geologica', sans-serif;
+  --bg-color-gray: #121212;
+  --bg-color-white: #fff;
+
+  --bg-icon: #131313;
+  --bg-color-icon: rgba(0,0,07);
 }

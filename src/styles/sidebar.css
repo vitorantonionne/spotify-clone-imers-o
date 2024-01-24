@@ -7,7 +7,7 @@
 }
 
 .sidebar__navegation {
-  background-color: #121212;
+  background-color: var(--bg-color-gray);
   border-radius: 8px;
   padding: 16px 0 0 16px;
 }
@@ -17,7 +17,7 @@
 }
 
 .sidebar__navegation .logo {
-  background-color: #121212;
+  background-color: var(--bg-color-gray);
   display: flex;
   border-radius: 8px;
   padding: 16px  0 0 16px;
@@ -37,15 +37,15 @@
   text-decoration: none;
   font-weight: 700;
   font-size: 0.9rem;
-  font-family: var(--font-gergia);
+  font-family: var(--font-web);
 }
 
 
 .library {
-  font-family: 'Geologica', sans-serif;
+  font-family: var(--font-web);
   font-weight: 700;
 
-  background-color: #121212;
+  background-color: var(--bg-color-gray);
   margin-top: 10px;
   padding: 12px;
   border-radius: 8px;
@@ -63,7 +63,7 @@
 }
 
 .library .library__button {
-  font-family: 'Geologica', sans-serif;
+  font-family: var(--font-web);
   font-weight: 700;
 
   text-decoration: none;
@@ -120,7 +120,7 @@
 }
 
 .section-playlist .section-playlist_button {
-  background-color: #fff;
+  background-color: var(--bg-color-white);
   text-decoration: none;
   border-radius: 999px;
   padding: 8px;
@@ -133,7 +133,7 @@
 }
 
 .section-playlist .section-playlist_button:hover {
-  background-color: #121212;
+  background-color: var(--bg-color-gray);
   color: #fff;
 
   transition: 1.1s;
@@ -152,7 +152,7 @@
 }
 
 .library .languages .languages__button {
-  background-color: #121212;
+  background-color: var(--bg-color-gray);
   color: #fff;
 
   font-weight: 700;
@@ -166,7 +166,7 @@
 }
 
 .library .languages .languages__button:hover {
-  background-color: #fff;
+  background-color: var(--bg-color-white);
   color: #121212;
 
   transition: 0.8s;
@@ -198,7 +198,7 @@ footer .footer__container {
 }
 
 footer .footer__button button {
-  background-color: #fff;
+  background-color: var(--bg-color-white);
   color: #121212;
 
   font-weight: 800;

@@ -10,7 +10,8 @@
   <title>Spotify Imersão Alura</title>
   <link rel="stylesheet" href="./src/styles/var.css">
   <link rel="stylesheet" href="src/styles/reset.css">
-  <link rel="stylesheet" href="src/styles/base.css">
+  <link rel="stylesheet" href="src/styles/sidebar.css">
+  <link rel="stylesheet" href="src/styles/main.css">
 
 
 </head>
@@ -82,6 +83,34 @@
       </button>
     </div>
   </footer>
+
+  <main>
+    <div class="main-container">
+      <nav class="header__navigation">
+        <div class="navigation">
+          <button class="arrow-left">
+            <img src="assets/icons/small-left.png" alt="Seta esquerda">
+          </button>
+          <button class="arrow-right">
+            <img src="assets/icons/small-right.png" alt="Seta direita">
+          </button>
+        </div>
+        <div class="header__search">
+          <img src="assets/icons/search.png" alt="#">
+          <input id="search-input" type="text" maxlength="800" placeholder="O que você ouvir ?"/>
+        </div>
+
+        <div class="header__login">
+          <button class="subscribe">
+            Inscreva-se
+          </button>
+          <button class="login">
+            Entrar
+          </button>
+        </div>
+      </nav>
+    </div>
+  </main>
 
   <script type="module" src="web/main.js"></script>
   <script src="https://kit.fontawesome.com/124a8abf02.js" crossorigin="anonymous"></script>
