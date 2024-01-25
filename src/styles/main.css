@@ -110,3 +110,30 @@
   font-weight: 700;
   border-radius: 40px;
 }
+
+.playlist-container {
+
+}
+
+.offer__scroll-container {
+  max-height: 43vh;
+  margin: 24px;
+  overflow-y: auto;
+}
+
+.offer__list-item {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.cards {
+  position: relative;
+  width: 220px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+}
